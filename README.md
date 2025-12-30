@@ -35,7 +35,7 @@ Copy Rumus berikut:
 )
 ```
 ------------------------------------------------------------------------
-Letakan Rumus di E6
+4. Letakan Rumus di E6
 
 Terdapat 2 hal yang bisa di ubah yaitu: 
 ```excel
@@ -47,9 +47,9 @@ Terdapat 2 hal yang bisa di ubah yaitu:
 artinya 2025 desember tanggal 1 sampai 
 2025 desember tanggal 8
 jadi data dari 1 desember sampai 8 desember akan di ambil.
-
+```excel
   Sumber!$C:$C, "Supervisor (UKO)",
--
+```
 baris ke 3 ini bisa di ganti-ganti sesuai yang ada di sumber
 seperti:
 1. MOL / AMOL
