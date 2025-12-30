@@ -48,6 +48,7 @@ artinya 2025 desember tanggal 1 sampai
 jadi data dari 1 desember sampai 8 desember akan di ambil.
 
   Sumber!$C:$C, "Supervisor (UKO)",
+-
 baris ke 3 ini bisa di ganti-ganti sesuai yang ada di sumber
 seperti:
 1. MOL / AMOL
@@ -56,11 +57,10 @@ seperti:
 contoh saya ingin mengganti ke MOL / AMOL maka penulisannya
 -----------------------------
   Sumber!$C:$C, "MOL / AMOL",
------------------------------
+-
 
-========================================
 ========== S T U D Y  C A S E ==========
-========================================
+-
 
 Jadi sebagai contoh. saya mau data bulan
 Januari tahun 2026 dan saya mau merekap data "MOL / AMOL", minggu pertama maka rumusnya menjadi
