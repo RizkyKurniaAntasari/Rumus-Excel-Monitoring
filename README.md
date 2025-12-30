@@ -38,11 +38,11 @@ Copy Rumus berikut:
 Letakan Rumus di E6
 
 Terdapat 2 hal yang bisa di ubah yaitu: 
--
+```excel
   Sumber!$B:$B, ">="&DATE(2025,12,1),
--
+
   Sumber!$B:$B, "<="&DATE(2025,12,7),
------------------------------
+```
 
 artinya 2025 desember tanggal 1 sampai 
 2025 desember tanggal 8
@@ -59,9 +59,9 @@ seperti:
 contoh saya ingin mengganti ke MOL / AMOL
 
 maka penulisannya: 
-
+```excel
   Sumber!$C:$C, "MOL / AMOL",
--
+```
 
 ========== S T U D Y  C A S E ==========
 -
@@ -92,8 +92,8 @@ Januari tahun 2026 dan saya mau merekap data "MOL / AMOL", minggu pertama maka r
 
 Terlihat pada 3 baris pertama yang berubah
 yaitu:
-
+```excel
   Sumber!$B:$B, ">="&DATE(2026,1,1),
   Sumber!$B:$B, "<="&DATE(2026,1,7),
   Sumber!$C:$C, "MOL / AMOL",
--
+```
