@@ -36,10 +36,9 @@ Copy Rumus berikut:
 Letakan Rumus di E6
 
 Terdapat 2 hal yang bisa di ubah yaitu: 
-2 baris pertama dalam rumus
-yaitu ->
------------------------------
+-
   Sumber!$B:$B, ">="&DATE(2025,12,1),
+-
   Sumber!$B:$B, "<="&DATE(2025,12,7),
 -----------------------------
 
@@ -54,8 +53,11 @@ seperti:
 1. MOL / AMOL
 2. Supervisor (UKO)
 3. Regional Office
-contoh saya ingin mengganti ke MOL / AMOL maka penulisannya
 -----------------------------
+contoh saya ingin mengganti ke MOL / AMOL
+
+maka penulisannya: 
+
   Sumber!$C:$C, "MOL / AMOL",
 -
 
@@ -87,8 +89,7 @@ Januari tahun 2026 dan saya mau merekap data "MOL / AMOL", minggu pertama maka r
 Terlihat pada 3 baris pertama yang berubah
 yaitu:
 
------------------------------
   Sumber!$B:$B, ">="&DATE(2026,1,1),
   Sumber!$B:$B, "<="&DATE(2026,1,7),
   Sumber!$C:$C, "MOL / AMOL",
------------------------------.
+-
