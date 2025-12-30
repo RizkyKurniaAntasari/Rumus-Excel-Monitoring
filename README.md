@@ -55,6 +55,9 @@ Terdapat 2 hal yang bisa di ubah yaitu:
 
   Sumber!$B:$B, "<="&DATE(2025,12,7),
 ```
+-------------------
+Penjelasan Singkat
+-------------------
 ```excel
 DATE(2025,12,1) 
 ```
