@@ -47,7 +47,7 @@ Copy Rumus berikut:
 )
 ```
 ------------------------------------------------------------------------
-4. Letakan Rumus di E6
+7. Letakan Rumus di E6
 
 Terdapat 2 hal yang bisa di ubah yaitu: 
 ```excel
@@ -56,9 +56,9 @@ Terdapat 2 hal yang bisa di ubah yaitu:
   Sumber!$B:$B, "<="&DATE(2025,12,7),
 ```
 
-Artinya 2025 desember tanggal 1 sampai 
-2025 desember tanggal 8
-jadi data dari 1 desember sampai 8 desember akan di ambil.
+DATE(2025,12,1) Artinya [ 1 Desember 2025 ] sampai 
+[ 8 Desember 2025 ]
+jadi data dari [ 1 Desember 2025 ] sampai [ 8 Desember 2025 ] akan di ambil.
 ```excel
   Sumber!$C:$C, "Supervisor (UKO)",
 ```
