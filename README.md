@@ -55,9 +55,14 @@ Terdapat 2 hal yang bisa di ubah yaitu:
 
   Sumber!$B:$B, "<="&DATE(2025,12,7),
 ```
-
-DATE(2025,12,1) Artinya [ 1 Desember 2025 ] sampai 
-[ 8 Desember 2025 ]
+```excel
+DATE(2025,12,1) 
+```
+Artinya [ 1 Desember 2025 ]
+```excel
+DATE(2025,12,8) 
+```
+Artinya [ 8 Desember 2025 ]
 jadi data dari [ 1 Desember 2025 ] sampai [ 8 Desember 2025 ] akan di ambil.
 ```excel
   Sumber!$C:$C, "Supervisor (UKO)",
