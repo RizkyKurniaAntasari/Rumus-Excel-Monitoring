@@ -1,12 +1,24 @@
 # Rumus-Excel-Monitoring
 
 Hal yang perlu dilakukan sebelum menggunakan rumus
-1. download data Kegiatan_Assurance_Berjenjang_2025_RO_Bandar_Lampung_Responses.xlsx
-2. dan copy semua data menggunakan
+1. Download data Kegiatan_Assurance_Berjenjang_2025_RO_Bandar_Lampung_Responses.xlsx
+2. Copy semua data menggunakan
 --------------------------------------------
    CTRL + A dan dilanjut dengan CTRL + C
 --------------------------------------------
-3. Klik 2x CELL E6.
+3. Buat Sheet baru di file Monitoring dengan nama "Sumber"
+4. Paste data di A1 dengan menggunakan
+----------------
+   CTRL + V
+----------------
+
+<img width="741" height="213" alt="image" src="https://github.com/user-attachments/assets/89a14925-cfc8-4447-a049-84c31b72c7f9" />
+
+5. Nanti akan seperti ini:
+
+<img width="850" height="273" alt="image" src="https://github.com/user-attachments/assets/bea51bcd-65a6-449a-9462-b76bd734d916" />
+
+6. Klik 2x CELL E6 pada Sheet Monitoring.
 
 <img width="1886" height="458" alt="image" src="https://github.com/user-attachments/assets/dda089f3-8483-400e-a74b-230ed19a283b" />
 
