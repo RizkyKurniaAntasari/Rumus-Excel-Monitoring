@@ -8,12 +8,12 @@ Hal yang perlu dilakukan sebelum menggunakan rumus
 --------------------------------------------
 3. Buat Sheet baru di file Monitoring dengan nama "Sumber"
 4. Paste data di A1 dengan menggunakan
-----------------
-   CTRL + V
-----------------
 
 <img width="741" height="213" alt="image" src="https://github.com/user-attachments/assets/89a14925-cfc8-4447-a049-84c31b72c7f9" />
 
+----------------
+   CTRL + V
+----------------
 5. Nanti akan seperti ini:
 
 <img width="850" height="273" alt="image" src="https://github.com/user-attachments/assets/bea51bcd-65a6-449a-9462-b76bd734d916" />
@@ -56,7 +56,7 @@ Terdapat 2 hal yang bisa di ubah yaitu:
   Sumber!$B:$B, "<="&DATE(2025,12,7),
 ```
 
-artinya 2025 desember tanggal 1 sampai 
+Artinya 2025 desember tanggal 1 sampai 
 2025 desember tanggal 8
 jadi data dari 1 desember sampai 8 desember akan di ambil.
 ```excel
