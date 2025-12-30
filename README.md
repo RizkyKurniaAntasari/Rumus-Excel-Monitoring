@@ -58,9 +58,9 @@ contoh saya ingin mengganti ke MOL / AMOL maka penulisannya
   Sumber!$C:$C, "MOL / AMOL",
 -----------------------------
 
-==================================================================================
-=============================== S T U D Y  C A S E ===============================
-==================================================================================
+========================================
+========== S T U D Y  C A S E ==========
+========================================
 
 Jadi sebagai contoh. saya mau data bulan
 Januari tahun 2026 dan saya mau merekap data "MOL / AMOL", minggu pertama maka rumusnya menjadi
@@ -85,8 +85,8 @@ Januari tahun 2026 dan saya mau merekap data "MOL / AMOL", minggu pertama maka r
 )
 
 Terlihat pada 3 baris pertama yang berubah
+yaitu:
 
-yaitu
 -----------------------------
   Sumber!$B:$B, ">="&DATE(2026,1,1),
   Sumber!$B:$B, "<="&DATE(2026,1,7),
