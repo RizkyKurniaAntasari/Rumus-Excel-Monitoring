@@ -13,25 +13,27 @@ Hal yang perlu dilakukan sebelum menggunakan rumus
 Copy Rumus berikut:
 ------------------------------------------------------------------------
 
+```excel
 =COUNTIFS(
-  Sumber!$B:$B, ">="&DATE(2025,12,1),
-  Sumber!$B:$B, "<="&DATE(2025,12,7),
+  Sumber!$B:$B, ">=" & DATE(2025,12,1),
+  Sumber!$B:$B, "<=" & DATE(2025,12,7),
   Sumber!$C:$C, "Supervisor (UKO)",
   Sumber!$E:$E, $B6,
   Sumber!$H:$H,
   "*" &
-  IF(E$5="CS","Customer Service",
-  IF(E$5="Teller","Teller",
-  IF(E$5="Satpam","Satpam",
-  IF(E$5="Banking Hall","Banking Hall",
-  IF(E$5="Gallery ATM","Gallery E-Channel",
-  IF(E$5="Fasad","Fasad Gedung",
-  IF(E$5="Toilet","Toilet",
-  IF(E$5="Brimen","Brimen, Ruang Kerja, Pantry, Ruang Server & Gudang",
-  IF(E$5="SPV","SPV","")))))))))
+    IF(E$5="CS","Customer Service",
+    IF(E$5="Teller","Teller",
+    IF(E$5="Satpam","Satpam",
+    IF(E$5="Banking Hall","Banking Hall",
+    IF(E$5="Gallery ATM","Gallery E-Channel",
+    IF(E$5="Fasad","Fasad Gedung",
+    IF(E$5="Toilet","Toilet",
+    IF(E$5="Brimen","Brimen, Ruang Kerja, Pantry, Ruang Server & Gudang",
+    IF(E$5="SPV","SPV","")
+  ))))))))
   & "*"
 )
-
+```
 ------------------------------------------------------------------------
 Letakan Rumus di E6
 
@@ -67,6 +69,7 @@ maka penulisannya:
 Jadi sebagai contoh. saya mau data bulan
 Januari tahun 2026 dan saya mau merekap data "MOL / AMOL", minggu pertama maka rumusnya menjadi
 
+```excel
 =COUNTIFS(
   Sumber!$B:$B, ">="&DATE(2026,1,1),
   Sumber!$B:$B, "<="&DATE(2026,1,7),
@@ -85,6 +88,7 @@ Januari tahun 2026 dan saya mau merekap data "MOL / AMOL", minggu pertama maka r
   IF(E$5="SPV","SPV","")))))))))
   & "*"
 )
+```
 
 Terlihat pada 3 baris pertama yang berubah
 yaitu:
